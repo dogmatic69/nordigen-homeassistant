@@ -3,7 +3,6 @@
 This integration will allow you to have access to banking data for most banks
 in the EU.
 
-![](/pics/sensor-examle.png)
 
 ## Installation
 
@@ -12,14 +11,24 @@ HACS coming soon!
 You will need to register on Nordigen and get an API key before you can run this
 integration. At this time there is only support for one API key per HA instance.
 
+![Example bank sensor](/pics/sensor-examle.png)
+
+### Installation
 1. Copy / clone this integration into `./config/custom_components/nordigen`
-1. Restart Home Assistant
+1. Restart Home Assistant to get the integration loaded
+
+### Configuraiton
 1. Add your config to `./config/configuration.yaml` or similar
 1. Validate the config using UI or CLI.
 1. Restart Home Assistant
-1. Monitor logs for the authentication URL. Copy URL to your browser and follow directions for authenticating and approving the connection.
-1. Restart Home Assistant once again after authenticating to the bank
-1. Your sensors should now be available.
+
+### Authentication
+
+![Unauthenticated sensor](/pics/initiate.png)
+
+1. Check the developer section for sensors, there should be a sensor with the account number / reference containing a link to authenticate your account.
+1. Click the link and follow the instructions
+1. Restart Home Assistant one last time
 
 In the future I hope to be able to make the system a bit more dynamic and user
 friendly for account onboarding :)

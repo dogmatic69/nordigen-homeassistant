@@ -1,0 +1,16 @@
+{
+    "name": "Nordigen",
+    "render_readme": true,
+    "domains": ["sensor"],
+    "iot_class": "Cloud Polling",
+    "content_in_root": true,
+    "country": [
+        "AT", "BE", "BG", "HR", "CY",
+        "CZ", "DK", "EE", "FI", "FR",
+        "DE", "GR", "HU", "IS", "IE",
+        "IT", "LV", "LI", "LT", "LU",
+        "MT", "NL", "NO", "PL", "PT",
+        "RO", "SK", "SI", "ES", "SE",
+        "GB"
+        ]
+  }

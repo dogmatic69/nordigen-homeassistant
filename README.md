@@ -1,5 +1,10 @@
 # Nordigen Home Assistant integration
 
+[![GitHub](https://img.shields.io/github/license/dogmatic69/nordigen-homeassistant)](LICENSE)
+[![CodeFactor](https://www.codefactor.io/repository/github/dogmatic69/nordigen-homeassistant/badge)](https://www.codefactor.io/repository/github/dogmatic69/nordigen-homeassistant)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=dogmatic69_nordigen-homeassistant&metric=alert_status)](https://sonarcloud.io/dashboard?id=dogmatic69_nordigen-homeassistant)
+[![CI](https://github.com/dogmatic69/nordigen-homeassistant/actions/workflows/pr.yaml/badge.svg)](https://github.com/dogmatic69/nordigen-homeassistant/actions/workflows/pr.yaml)
+
 This integration will allow you to have access to banking data for most banks
 in the EU.
 

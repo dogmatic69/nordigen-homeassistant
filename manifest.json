@@ -6,7 +6,7 @@
     "dependencies": [],
     "after_dependencies": [],
     "codeowners": ["@dogmatic69"],
-    "requirements": ["nordigen-ha-lib==0.2.0"],
+    "requirements": ["nordigen-ha-lib==0.3.0"],
     "iot_class": "cloud_polling",
-    "version": "0.2.0"
+    "version": "0.3.0"
   }

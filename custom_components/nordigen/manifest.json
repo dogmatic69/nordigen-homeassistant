@@ -1,0 +1,13 @@
+{
+    "domain": "nordigen",
+    "name": "Nordigen for Home Assistant",
+    "documentation": "https://github.com/dogmatic69/nordigen-homeassistant/blob/master/README.md",
+    "issue_tracker": "https://github.com/dogmatic69/nordigen-homeassistant/issues",
+    "codeowners": ["@dogmatic69"],
+    "version": "v0.4",
+    "config_flow": true,
+    "iot_class": "cloud_polling",
+    "dependencies": [],
+    "after_dependencies": [],
+    "requirements": ["nordigen-ha-lib==0.4.0b1"],
+}

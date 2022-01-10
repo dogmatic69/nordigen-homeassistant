@@ -1,4 +1,4 @@
-from . import LOGGER, CONST, DOMAIN
+from ... import LOGGER, CONST, DOMAIN
 
 from nordigen_lib.sensor import build_sensors
 

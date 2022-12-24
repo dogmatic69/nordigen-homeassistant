@@ -1,0 +1,40 @@
+{
+  "title": "Nordigen Integration",
+  "config": {
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_location%]"
+    },
+    "error": {
+      "invalid_api_key": "[%key:common::config_flow::error::invalid_api_key%]",
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "requisition": "[%key:common::config_flow::error::cannot_connect%]",
+      "institution": "[%key:common::config_flow::error::cannot_connect%]"
+    },
+    "step": {
+      "user": {
+        "title": "Configure Open Banking",
+        "description": "Enter your Nordigen API credentials. (Can be found @ https://ob.nordigen.com/user-secrets/)",
+        "data": {
+          "account_holder": "Account Holder",
+          "secret_id": "Nordigen Secret Id",
+          "secret_key": "Nordigen Secret Key",
+          "country": "Two letter country code supported by Nordigen",
+          "institution_id": "Institution",
+          "refresh_rate": "Refresh rate in seconds",
+          "balance_types": "Balance types to track as sensors",
+          "ignore_accounts": "Accounts to be ignored"
+        }
+      }
+    }
+  },
+  "options": {
+    "error": {
+      "invalid_path": "The path provided is not valid. Should be in the format `user/repo-name` and should be a valid github repository."
+    },
+    "step": {
+      "user": {
+        "title": "Configure Open Banking"
+      }
+    }
+  }
+}

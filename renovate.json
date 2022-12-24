@@ -1,5 +1,15 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "extends": ["config:base"],
+  "semanticCommits": "enabled",
+  "semanticCommitScope": null,
+  "commitMessageTopic": "{{depName}}",
+  "additionalBranchPrefix": "{{baseDir}}-",
+  "rebaseWhen": "behind-base-branch",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "automerge": true,
+  "prConcurrentLimit": 15,
+  "prHourlyLimit": 5,
+  "timezone": "Europe/Stockholm"
 }
